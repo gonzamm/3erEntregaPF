@@ -1,0 +1,32 @@
+{
+  "name": "3erEntregaPF",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "app": "node index.js",
+    "test": "node index_cluster.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "nodemon": "^2.0.14"
+  },
+  "dependencies": {
+    "axios": "^0.24.0",
+    "bcrypt": "^5.0.1",
+    "dotenv": "^12.0.3",
+    "express": "^4.17.1",
+    "express-session": "^1.17.2",
+    "log4js": "^6.3.0",
+    "mongoose": "^6.0.12",
+    "multer": "^1.4.4",
+    "nodemailer": "^6.7.2",
+    "passport": "^0.5.2",
+    "passport-local": "^1.0.0",
+    "socket.io": "^4.4.1",
+    "twilio": "^3.73.0"
+  }
+}
