@@ -1,2 +1,2 @@
-artillery quick --count 50 -n 40 http://localhost:8080/primo?max=100000 > result_cluster.txt
-artillery quick --count 50 -n 40 http://localhost:8080/primo?max=100000 > result_fork.txt
+artillery quick --count 50 -n 40 http://localhost:8080/primo > result_cluster.txt
+artillery quick --count 50 -n 40 http://localhost:8080/primo > result_fork.txt
